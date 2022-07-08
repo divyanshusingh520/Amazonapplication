@@ -2,7 +2,7 @@
 {
     background-color:#131A22;
     /* width: 50px; */
-    height: 80px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,9 +33,15 @@
 }
  .search .searchbar
 {
-    background-color: white;
-    width: 800px;
+    background-color: ;
+    width: 600px;
     height: 45px;
+    border-radius: 5px;
+}
+.searchbar input{
+    /* background-color: red; */
+    height: 40px;
+    width: 600px;
     border-radius: 5px;
 }
 .small
@@ -56,34 +62,53 @@
     justify-content: end;
     
 }
-.fa fa-search
+ .small .i
 {
-    background-color:red;
+    background-color:blue;
     height: 50px;
     width: 50px;
 }
+ .searchbar .input
+{
+    width: 800px;
+    height: 45px;
+    background-color: red;
+}
 .cart
 {
-    height: 80px;
-    width: 150px;
-}
-.cart img
-{
-    height: 80px;
-    width: 150px;
-}
-.sign
-{
-    /* background-color: red; */
-    height: 80px;
-    width: 180px;
+    height: 60px;
+    width: 80px;
+    background-color: #131A22;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.cartinner
+{
+    color: blue;
+}
+.side
+{
+    color: red;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+
+.sign
+{
+    /* background-color: red; */
+    height: 20px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 .sign .signin
 {
-    background-color: white;
+    background-color: #131A22;
     height: 50px;
     width: 140px;
     border-radius: 5px;
@@ -99,12 +124,13 @@
 }
 .content
 {
-    background-color: #FEBD69;
+    background-color: lightblue;
     height: 25px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    justify-content: space-around;
+    flex: ;
+    /* justify-content: space-around; */
     
     
     
@@ -112,21 +138,46 @@
 .pant
 {
     display: flex;
+    background-color: lightblue;
     flex-direction: column;
     align-items: center;
     margin: 5px;
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+    
+    
+
 }
 .shirt
 {
     display: flex;
+    background-color: lightblue;
     flex-direction: column;
     align-items: center;
     margin: 5px;
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 .shoes
 {
     display: flex;
+    background-color: lightblue;
     flex-direction: column;
     align-items: center;
     margin: 5px;
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.internal
+{
+    color: blue;
 }

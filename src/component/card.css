@@ -1,0 +1,55 @@
+
+.parent
+{
+    height: 100%;
+    width : 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.next img
+{
+    margin: 10px;
+    height: 250px;
+    width: 200px;
+
+    
+}
+.title
+{
+    background-color: lightblue;
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.add
+{
+    background-color: orange;
+    height: 40px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.head
+{
+    /* background-color: yellow; */
+    height: 400px ;
+    width: 310px;
+    margin: 10px;
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    
+    
+    border: 1px solid black;
+}
+.detail
+{
+    background-color: pink;
+    height: 100px;
+    width: 200px;
+}

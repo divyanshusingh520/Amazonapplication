@@ -1,0 +1,105 @@
+.headinner
+{
+    background-color: blue;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.loginhead
+{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.heading
+{
+    color: white;
+    font-size: smaller;
+}
+ /* .fullname input
+{
+    background-color: blue;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    
+}
+.password
+{
+    /* background-color: red; */
+    
+
+.fullname input{
+    height: 20px;
+    width: 300px;
+    
+}
+.password input{
+    height: 20px;
+    width: 300px;
+    
+}
+.forgetpassword
+{
+ 
+ height: 20px;
+ width: 300px;
+ display: flex;
+ justify-content: end;
+
+}
+.forget
+{
+    font-style: italic;
+    font-size: small;
+}
+.submit button
+{
+    background-color: blue;
+    border: 1px solid gold;
+    height: 30px;
+    width: 300px;
+    color: gold;
+    border-radius: 5px;
+
+}
+.googlehead
+{
+    background-color: black;
+    height: 30px;
+    width: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    margin: 20px;
+    border-radius: 5px;
+}
+.enter
+{
+    font-size: small;
+}
+.registerhead
+{
+    display: flex;
+}
+.register
+{
+    color: white;
+}
+.registerinner
+{
+    color: skyblue;
+    margin-left: 5px;
+}
+.fullname
+{
+    margin-top: 50px;
+}
